@@ -1,40 +1,37 @@
+# Title: README Generator
 
-    # Title: README Generator
-
-    ## Table of Contents:
-    * [Description: ](#description)
-    * [Installation:](#installation)
-    * [Usage: ](#usage)
-    * [Contribution: ](#contribution)
-    * [Test: ](#test)
-    * [License: ](#license)
-    * [GitHub: ](#github)
-    * [Email: ](#email)
+## Table of Contents:
+* [Description: ](#description)
+* [Installation:](#installation)
+* [Usage: ](#usage)
+* [Contribution: ](#contribution)
+* [Test: ](#test)
+* [License: ](#license)
+* [GitHub: ](#github)
+* [Email: ](#email)
     
-    ## Description
-    An application that quickly and easily generates a README for your projects. This app leverages npm inquirer and node to build your document in the command line. The document you are currently reading is developed using the README Generator. 
+## Description
+A command line application built with NodeJS, that makes it easy to generate a good README.md
 
-    ## Installation
-    npm install
+## Installation
+-
 
-    ## Usage
-    Open the README generator application in your terminal and run 'npm install inquirer'. Then run the application using 'node index.js'. Answer the questions that populate and the document will populate.
+## Usage
+node index.js
 
-    ## Contribution
-    Ahmed Ali
+## Contribution
+Ahmed Ali
 
-    ## Test
-    npm run test
+## Test
+npm run test
 
-    ## License
-    N/A
+## License
+GNU
 
-    ## GitHub
-    example.git
+## GitHub
+https://github.com/Aali0
 
-    ## Email
-    example@email
+## Email
+-
     
-    ## Demo Link
-    https://drive.google.com/file/d/1p97ffsN-FAjyh-MzXGOc-saN8Ov5Aa0p/view
     

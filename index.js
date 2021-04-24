@@ -15,19 +15,19 @@ const questions = [
 ];
 
 // inquirer
-//     .prompt([
+//    .prompt([
 
-//     ])
-//     .then(answers=> {
+//    ])
+//    .then(answers=> {
 
-//     })
-//     .catch(err => {
-//         if(err.isTtyError) {
+//    })
+//    .catch(err => {
+//        if(err.isTtyError) {
 
-//         } else {
+//        } else {
 
-//         }
-//     })
+//        }
+//    })
 
 
 function init () {
@@ -36,44 +36,44 @@ function init () {
         console.log(info);
     
     let readmeInfo = 
-    `
-    # Title: ${info.title}
+`
+# Title: ${info.title}
 
-    ## Table of Contents:
-    * [Description: ](#description)
-    * [Installation:](#installation)
-    * [Usage: ](#usage)
-    * [Contribution: ](#contribution)
-    * [Test: ](#test)
-    * [License: ](#license)
-    * [GitHub: ](#github)
-    * [Email: ](#email)
+## Table of Contents:
+* [Description: ](#description)
+* [Installation:](#installation)
+* [Usage: ](#usage)
+* [Contribution: ](#contribution)
+* [Test: ](#test)
+* [License: ](#license)
+* [GitHub: ](#github)
+* [Email: ](#email)
     
-    ## Description
-    ${info.description}
+## Description
+${info.description}
 
-    ## Installation
-    ${info.installation}
+## Installation
+${info.installation}
 
-    ## Usage
-    ${info.usage}
+## Usage
+${info.usage}
 
-    ## Contribution
-    ${info.contribution}
+## Contribution
+${info.contribution}
 
-    ## Test
-    ${info.test}
+## Test
+${info.test}
 
-    ## License
-    ${info.license}
+## License
+${info.license}
 
-    ## GitHub
-    ${info.github}
+## GitHub
+${info.github}
 
-    ## Email
-    ${info.email}
+## Email
+${info.email}
     
-    `
+`
     console.log(readmeInfo);
 
     fs.writeFileSync('README.MD', readmeInfo, err => {
